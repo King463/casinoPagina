@@ -2,7 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-image: url("../img/bgParedRed.png");
+  background-image: url("../img/bgAproxTriada.png");
 }
 
 .layout_padding {
@@ -487,11 +487,12 @@ a:focus {
 
 .service_section .box {
   background-color: #ffffff;
-  padding: 25px 15px;
+  padding: 10px 10px;
   text-align: center;
   -webkit-box-shadow: 0 0 15px 0 rgb(0, 0, 0);
           box-shadow: 0 0 15px 0 rgb(0, 0, 0);
   margin-top: 45px;
+  height: 475px;
 }
 
 .service_section .box .img-box svg {
@@ -501,7 +502,7 @@ a:focus {
 }
 
 .service_section .box .detail-box {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .service_section .box .detail-box h6 {
@@ -519,13 +520,30 @@ a:focus {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .service_section .box .detail-box a:hover {
   background-color: transparent;
   border-color: #EABE3F;
   color: #EABE3F;
+
+}
+
+.service_section .detail-box h2 span {
+  color: #EABE3F;
+  text-transform: uppercase;
+  font-weight: 600;
+
+}
+.service_section .box1 {
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+  box-shadow: 0 0 15px 0 rgb(0, 0, 0);
+  margin-top: 45px;
+  height: 475px;
 }
 
 .client_section {
