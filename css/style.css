@@ -887,3 +887,26 @@ a:focus {
   bottom: 0;
   left: 0;
 }
+
+
+.scroll-btn {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    bottom: 150px; /* Ajusta la posición vertical */
+    right: 20px;
+    background-color: #000000;
+    opacity: 0.8;
+    color: #fff;
+    border: none;
+    border-radius: 50%; /* Hace que el botón sea un círculo */
+    width: 50px; /* Tamaño del círculo */
+    height: 50px; /* Tamaño del círculo */
+    cursor: pointer;
+}
+
+.scroll-btn::before {
+    content: '\25b2'; /* Código Unicode para la flecha hacia arriba */
+    font-size: 24px;
+    line-height: 50px; /* Centra verticalmente la flecha en el círculo */
+    text-align: center;
+}
