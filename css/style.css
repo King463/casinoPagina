@@ -871,13 +871,13 @@ a:focus {
   text-transform: uppercase;
 }
 
-.heading_container h2 {
+.heading_container h3 {
   position: relative;
   text-transform: uppercase;
   padding-bottom: 10px;
   font-weight: 550;
 }
-.heading_container h2::before {
+.heading_container h3::before {
   content: "";
   width: 40px;
   height: 7px;
@@ -886,9 +886,6 @@ a:focus {
   position: absolute;
   bottom: 0;
   left: 0;
-}
-.heading_container h2 {
-  margin-top: 0px;
 }
 
 
