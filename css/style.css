@@ -495,12 +495,10 @@ a:focus {
   height: 475px;
 }
 
-.service_section .box .img-box svg {
-  width: 75px;
-  height: auto;
-  fill: #1c1c1c;
+.service_section .container .box .img-box .img-bene {
+  height: 135px;
+  width: 135px;
 }
-
 .service_section .box .detail-box {
   margin-top: 10px;
 }

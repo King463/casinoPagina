@@ -34,6 +34,17 @@
   .sub_page .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
     padding-bottom: 15px;
   }
+  .service_section .container .box .img-box .img-bene {
+    height: 165px;
+    width: 165px;
+  }
+  .service_section .container .box .detail-box p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
