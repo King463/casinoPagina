@@ -1,4 +1,6 @@
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) and (min-width: 991px) {
+
+}
 
 @media (max-width: 992px) and (min-width: 480px) {
   .hero_area {
@@ -39,12 +41,18 @@
     width: 165px;
   }
   .service_section .container .box .detail-box p {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    text-align: center;
+      margin: 2rem;
+      text-align: center;
   }
+    .box1 .detail-box .heading_container #text-bene{
+        text-shadow: 0 0 1em black, 0 0 1em black, 0 0 0.2em black;
+        margin: 2em 2em 0 2em;
+    }
+
+    .about_section .img_container .img-box img {
+        width: 100%;
+        height: 300px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -87,6 +95,10 @@
     box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
   }
 
+    .about_section .img_container .img-box img {
+        width: 100%;
+        height: 300px;
+    }
   .service_section .service_container {
     flex-wrap: wrap;
   }
@@ -122,6 +134,12 @@
   .info_section .info_form .social_box a {
     margin: 0 5px;
   }
+
+    .box1 .detail-box .heading_container #text-bene{
+        text-shadow: 0 0 1em black, 0 0 1em black, 0 0 0.2em black;
+        margin: 2em 2em 0 2em;
+    }
+
 }
 
 @media (max-width: 576px) {
@@ -139,7 +157,7 @@
   }
 }
 
-@media (max-width: 480px) {}
+
 @media only screen and (max-width: 480px) {
   .navbar-collapse {
     background-color: rgba(0, 0, 0, 0.7);
@@ -196,7 +214,10 @@
   .sub_page .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
     padding-bottom: 15px;
   }
-
+    .box1 .detail-box .heading_container #text-bene{
+        text-shadow: 0 0 1em black, 0 0 1em black, 0 0 0.2em black;
+        margin: 1em 1em 1em 1em;
+    }
 }
 
 
