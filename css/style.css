@@ -308,6 +308,15 @@ a:focus {
           transform: rotate(90deg);
   top: 0;
 }
+.header_section .container-fluid .navbar {
+  background-color: rgba(0,0,0,0.7);
+  padding-left: 25px;padding-right: 25px;
+}
+
+.header_section .container-fluid .navbar img {
+  max-height: 150px;
+  max-width: 150px;
+}
 
 /*end header section*/
 /* slider section */
@@ -344,14 +353,17 @@ a:focus {
   font-size: 3rem;
   color: #ffffff;
   font-weight: 600;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .slider_section .detail-box h1 span {
   color: #EABE3F;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .slider_section .detail-box p {
   margin-top: 25px;
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em black;
 }
 
 .slider_section .detail-box .btn-box {
@@ -453,6 +465,8 @@ a:focus {
           box-shadow: 0 0 5px 0 rgb(0, 0, 0);
   position: relative;
   margin-left: -45px;
+  z-index: 1;
+  margin-right: -45px;
 }
 
 .about_section .detail-box p {
@@ -478,11 +492,11 @@ a:focus {
 
 .service_section {
   background-image: url("../img/backInt1400x800.png");
-
 }
 
 .service_section .heading_container {
   color: #ffffff;
+
 }
 
 .service_section .box {
