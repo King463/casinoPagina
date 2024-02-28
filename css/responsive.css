@@ -1,4 +1,4 @@
-@media (max-width: 1920px) and (min-width: 1250px) {
+@media (max-width: 1920px) and (min-width: 1400px) {
   body {
     font-size: 1.5rem;
   }
@@ -6,7 +6,7 @@
 
   }
   .hero_area {
-    min-height: 110vh;}
+    min-height: 120vh;}
 
   .header_section .container-fluid .navbar {
     height: 150px;
@@ -112,24 +112,20 @@
   .premios_section .container .detail-box .heading_container{
     width: 100%;
   }
-
   .premios_section .regular img{
     width: 466px;
     height: 750px;
     padding: 10px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
+  .info_section a{
+    font-size: 2rem;
+  }
+  .info_section .container
+  {
+    max-width: 1630px;
+    padding: 0 100px;
+  }
 
 
 
@@ -137,7 +133,34 @@
 
 }
 
-@media (max-width: 1250px) and (min-width: 480px) {
+@media (max-width: 1399px) and (min-width: 1251px) {
+.about_section .solicitarCuenta {
+  margin-left: 6.5%;
+}
+  .about_section .descargarApp {
+    margin-left: 3.5%;
+  }
+
+
+  .premios_section .regular img{
+    height: 700px;
+    padding: 10px;
+  }
+
+
+
+}
+@media (max-width: 1250px) and (min-width: 980px){
+  .premios_section .regular img{
+    height: 500px;
+    padding: 10px;
+  }
+
+
+
+}
+
+@media (max-width: 980px) and (min-width: 480px) {
   .hero_area {
     min-height: auto;
   }
@@ -192,7 +215,7 @@
   .premios_section .regular img{
 
     height: 550px;
-    
+
   }
 }
 
@@ -367,9 +390,3 @@
 
 @media (max-width: 376px) {}
 
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1170px;
-  }
-}
