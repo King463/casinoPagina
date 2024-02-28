@@ -156,6 +156,13 @@
     padding: 10px;
   }
 
+  .about_section .solicitarCuenta {
+    margin-left: 5.5%;
+  }
+  .about_section .descargarApp {
+    margin-right: 5.5%;
+  }
+
 
 
 }
@@ -383,6 +390,8 @@
         margin: 1em 1em 1em 1em;
     }
   .premios_section .regular img{
+
+    height: 450px;
 
   }
 }
