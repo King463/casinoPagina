@@ -2,8 +2,15 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
-  background-image: url("../img/BrilloM50793FEA.png");
+
 }
+.fondo{
+  background-image: url("../img/1920x3000.png");
+}
+.sub_page{
+  background-image: url("../img/1920x5500.png");
+}
+
 
 .layout_padding {
   padding-top: 50px;
@@ -926,9 +933,14 @@ a:focus {
 .img-oculta {
   display: none; /* Oculta la imagen por defecto */
 }
+.img-oculta-king{
+  display: none;
+}
 
 .about_section .container .ssf{
   width: 1200px;
   margin: 0;
   padding: 0;
 }
+
+
