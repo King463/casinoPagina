@@ -1,4 +1,4 @@
-@media (max-width: 1920px) and (min-width: 1400px) {
+@media (min-width: 1400px) {
   body {
     font-size: 1.5rem;
   }
@@ -126,12 +126,15 @@
     max-width: 1630px;
     padding: 0 100px;
   }
-
-
-
-
+  .img-oculta {
+    display: block; /* Muestra la imagen cuando el ancho de la ventana sea igual o superior a 1200px */
+  }
+  .about_section .container .ssf{
+width: 1000px;
+  }
 
 }
+
 
 @media (max-width: 1399px) and (min-width: 1251px) {
 .about_section .solicitarCuenta {
@@ -147,10 +150,15 @@
     padding: 10px;
   }
 
-
+  .img-oculta {
+    display: block; /* Muestra la imagen cuando el ancho de la ventana sea igual o superior a 1200px */
+  }
 
 }
-@media (max-width: 1250px) and (min-width: 980px){
+
+
+
+@media (max-width: 1250px) and (min-width: 979px){
   .premios_section .regular img{
     height: 500px;
     padding: 10px;
@@ -163,7 +171,9 @@
     margin-right: 5.5%;
   }
 
-
+  .img-oculta {
+    display: block; /* Muestra la imagen cuando el ancho de la ventana sea igual o superior a 1200px */
+  }
 
 }
 

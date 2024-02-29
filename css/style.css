@@ -922,3 +922,13 @@ a:focus {
     line-height: 50px; /* Centra verticalmente la flecha en el círculo */
     text-align: center;
 }
+
+.img-oculta {
+  display: none; /* Oculta la imagen por defecto */
+}
+
+.about_section .container .ssf{
+  width: 1200px;
+  margin: 0;
+  padding: 0;
+}

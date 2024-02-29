@@ -69,24 +69,24 @@
 <section class="about_section layout_padding" id="saberMas">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 px-0">
+            <div class="col-lg-6 px-0">
                 <div class="row">
                     <div class="row g-2 align-items-end">
                     <div class="col-12">
-                        <img class="img-fluid rounded w-100 zoomIn pb-1"  src="./img/d.png" alt="">
+                        <img  class="img-fluid rounded w-100 zoomIn pb-1 img-oculta"  src="./img/b%20(1).png" alt="" />
                     </div>
                     </div>
                     <div class="row g-2 align-items-start">
                     <div class="col-4 pr-1 pt-1" >
-                        <img class="img-fluid rounded w-75 zoomIn float-right "  src="./img/city-casino.jpg" alt="">
+                        <img class="img-fluid rounded w-75 zoomIn float-right img-oculta"  src="./img/tresChico.png" alt="">
                     </div>
                     <div class="col-8 pl-1 pt-1">
-                        <img class="img-fluid rounded w-100 zoomIn"  src="./img/2.png" alt="">
+                        <img class="img-fluid rounded w-100 zoomIn img-oculta"  src="./img/b.png" alt="">
                     </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 px-0" >
+            <div class="col-lg-6 px-0" >
                 <div class="detail-box">
                     <div class="heading_container pb-4" >
                         <h3>
@@ -165,45 +165,12 @@
 </div>
 </section>
 
-<div class="container">
-    <div class="col-lg-12 col-sm-0">
-        <div class="row g-2 align-items-end">
-            <div class="col-3 text-start pb-5 p-2">
-                <img class="img-fluid rounded w-75 zoomIn" src="./img/d.png" style="margin-left: 25%;" alt="">
-                <!--
-                <img class="img-fluid rounded w-75 zoomIn" src="./img/d.png" style="margin-left: 25%;"
-                     srcset="./img/d.png 320w" sizes="(max-width: 320px) 0px" alt="" />
-                -->
-            </div>
-            <div class="col-3 text-start p-2 ">
-                <img class="img-fluid rounded w-100 zoomIn" src="./img/winMoneda.png" alt="">
-            </div>
-            <div class="col-3 text-end p-2 ">
-                <img class="img-fluid rounded w-75 zoomIn" src="./img/bg-abstract--mobile-landscape.jpg" alt="">
-            </div>
-            <div class="col-3 text-end p-2 ">
-                <div class="img-fluid rounded w-100 zoomIn"></div>
-            </div>
-        </div>
-        <div class="row g-2 align-items-start">
-            <div class="col-3 text-start p-2 ">
-                <div class="img-fluid rounded w-100 zoomIn"></div>
-            </div>
-            <div class="col-3 text-start p-2 ">
-                <img class="img-fluid rounded w-75 zoomIn" src="./img/2.png" style="margin-left: 25%;" alt="">
-            </div>
-            <div class="col-3 text-end p-2 ">
-                <img class="img-fluid rounded w-100 zoomIn" src="./img/backGames.png" alt="">
-            </div>
-            <div class="col-3 text-end pt-5 p-2">
-                <img class="img-fluid rounded w-75 zoomIn" src="./img/2.png" alt="">
-            </div>
-        </div>
-    </div>
-</div>
-<section class="about_section layout_padding pt-0" id="beneficios">
+<section class="about_section layout_padding pt-0"  id="beneficios">
     <div class="container">
         <div class="row">
+            <div class="col-lg-12 col-md-12" >
+                <img class="img-oculta ssf" src="./img/king5.png" style="padding-bottom: 30px" alt="">
+            </div>
             <div class="col-md-12 px-0" >
                 <div class="detail-box ">
                     <div class="heading_container heading_center">
@@ -252,23 +219,23 @@
   <!-- end about section -->
 
 <!-- info section -->
-<section class="info_section ">
+<section class="info_section" style="color: white">
     <div class="container">
         <div class="row ">
             <div class="col-lg-4 col-md-4 col-sm-4 text-center">
-                <a href="https://www.instagram.com/theking_fortune" class="">
+                <a href="https://www.instagram.com/theking_fortune" style="color: white" class="aa">
                     <img src="img/instagram.png" alt="icono-instagram" style="height: 25px;">
                     <span>Instagram</span>
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4  text-center">
-                <a href="https://api.whatsapp.com/send?phone=5491127903948" class="">
+                <a href="https://api.whatsapp.com/send?phone=5491127903948" style="color: white" class="">
                     <img src="img/whatsapp.png" alt="icono-whatsapp" style="height: 25px;">
                     <span>WhatsApp</span>
                 </a>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-4 text-center">
-                <a href="https://t.me/TheKingfortune" class="">
+                <a href="https://t.me/TheKingfortune" style="color: white" class="">
                     <img src="img/telegrama.png" alt="icono-telegram" style="height: 25px;">
                     <span>Telegram</span>
                 </a>
@@ -277,38 +244,6 @@
     </div>
 </section>
 <!-- end info_section -->
-
-<button id="scrollBtn" class="scroll-btn"></button>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var scrollBtn = document.getElementById('scrollBtn');
-
-        // Función para hacer scroll hacia arriba
-        function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-
-        // Evento clic para el botón
-        scrollBtn.addEventListener('click', scrollToTop);
-
-        // Función para controlar la visibilidad del botón
-        function toggleScrollBtnVisibility() {
-            if (window.scrollY > window.innerHeight / 2) {
-                scrollBtn.style.display = 'block'; // Mostrar botón
-            } else {
-                scrollBtn.style.display = 'none'; // Ocultar botón
-            }
-        }
-
-        // Evento scroll para controlar la visibilidad del botón
-        window.addEventListener('scroll', toggleScrollBtnVisibility);
-    });
-</script>
-
 
 
   <script src="js/jquery-3.4.1.min.js"></script>
